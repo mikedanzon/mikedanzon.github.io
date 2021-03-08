@@ -1,0 +1,54 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+* > div {
+    border: 1px solid black;
+}
+/* header components */
+.header {
+    display: flex;
+    padding: 10px;
+}
+
+.header-logo {
+    width: 50%;
+}
+
+.header-nav {
+    width: 50%;
+    text-align: right;
+}
+/* end of header */
+/* main 1 */
+.main-1 {
+    display: flex;
+    padding-top: 360px;
+    padding-bottom: 360px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.main-1-left {
+    width: 50%;
+}
+
+.main-1-right {
+    width: 50%;
+}
+/* end of main 1 */
+/* main 2 */
+.main-2 {
+    display: flex;
+
+}
+
+.main-2-left {
+
+}
+
+.main-2-right {
+
+}
+/* end of main 2 */
