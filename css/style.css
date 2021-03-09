@@ -8,8 +8,15 @@
 } */
 
 .navbar-right > .navbar-nav > .nav-item {
+    font-weight: 600;
     padding-left: 50px;
     padding-right: 20px;
+}
+
+@media (min-width: 375px) {
+    .navbar-right > .navbar-nav > .nav-item {
+        padding-left: 13px;
+    }
 }
 
 /* main-info */
