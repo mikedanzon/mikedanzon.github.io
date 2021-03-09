@@ -19,7 +19,6 @@
     }
 }
 
-/* main-info */
 .main-info {
     display: flex;
     height: 95vh;
@@ -41,9 +40,7 @@
     color: white;
     width: 50%;
 }
-/* end of main-info */
 
-/* intro */
 .intro {
     display: flex;
     padding: 200px 10px 200px 10px;
@@ -57,16 +54,12 @@
 .intro-right {
     width: 50%;
 }
-/* end of intro */
 
-/* skills */
 .skills {
     padding: 300px 10px 300px 10px;
     text-align: center;
 }
-/* end of skills */
 
-/* footer */
 .footer {
     display: flex;
     padding: 150px 10px 150px 10px;
@@ -80,4 +73,3 @@
 .footer-right {
     width: 50%;
 }
-/* end of footer */
