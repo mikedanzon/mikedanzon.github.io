@@ -20,7 +20,7 @@
 }
 
 .main-info {
-    display: flex;
+    /* display: flex; */
     height: 95vh;
     padding: 35vh 1em;
     text-align: center;
@@ -33,12 +33,15 @@
 
 .main-info-left {
     color: white;
-    width: 50%;
+    padding-right: 200px;
+    padding-left: 200px;
+    padding-bottom: 20px;
+    /* width: 50%; */
 }
 
 .main-info-right {
     color: white;
-    width: 50%;
+    /* width: 50%; */
 }
 
 .intro {
