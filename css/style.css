@@ -19,6 +19,11 @@
     }
 }
 
+.btn-font {
+    font-family: var(--bs-font-sans-serif);
+    font-weight: 450;
+}
+
 .main-info {
     /* display: flex; */
     height: 95vh;
