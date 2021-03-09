@@ -4,51 +4,64 @@
 }
 
 * > div {
-    /* border: 1px solid black; */
+    border: 1px solid black;
 }
-/* header components */
-/* .header {
+/* main-info */
+.main-info {
     display: flex;
-    padding: 10px;
+    height: 95vh;
+    padding: 35vh 1em;
+    text-align: center;
+    background: url("/img/cover.jpg") no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
 }
 
-.header-logo {
+.main-info-left {
+    color: white;
     width: 50%;
 }
 
-.header-nav {
+.main-info-right {
+    color: white;
     width: 50%;
-    text-align: right;
-} */
-/* end of header */
-/* main 1 */
-.main-1 {
+}
+/* end of main-info */
+/* intro */
+.intro {
     display: flex;
-    padding-top: 360px;
-    padding-bottom: 360px;
-    padding-left: 10px;
-    padding-right: 10px;
+    padding: 200px 10px 200px 10px;
+    text-align: center;
 }
 
-.main-1-left {
+.intro-left {
     width: 50%;
 }
 
-.main-1-right {
+.intro-right {
     width: 50%;
 }
-/* end of main 1 */
-/* main 2 */
-.main-2 {
+/* end of intro */
+/* skills */
+.skills {
+    padding: 300px 10px 300px 10px;
+    text-align: center;
+}
+/* end of skills */
+/* footer */
+.footer {
     display: flex;
-
+    padding: 150px 10px 150px 10px;
+    text-align: center;
 }
 
-.main-2-left {
-
+.footer-left {
+    width: 50%;
 }
 
-.main-2-right {
-
+.footer-right {
+    width: 50%;
 }
-/* end of main 2 */
+/* end of footer */
