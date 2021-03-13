@@ -31,6 +31,9 @@
     max-height: 65vh !important;
 }
 @media (max-width: 520px) {
+    .carousel {
+        display: none;
+    }
     .main-intro {
         display: block;
         padding-top: 15px;
@@ -243,20 +246,16 @@
         padding-top: 50px;
         padding-bottom: 50px;
     }
-
     .hire-me-left {
         padding-bottom: 50px;
         margin: auto;
     }
-
     .hire-me-right {
         margin: auto;
     }
-
     .hire-me-left-2 > button {
         font-size: 15px;
     }
-
     .hire-me-right-2 {
         font-size: 35px;
     }
